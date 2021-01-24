@@ -65,7 +65,7 @@ do
 		clear
     elif [ "$command" == "update" ]
 	then
-		sudo dpkg --configure -a && sudo apt-get install -f && sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoclean && sudo apt-get --purge autoremove && wget -N http://ourmedia.atwebpages.com/shell.sh && clear
+		sudo dpkg --configure -a && sudo apt-get install -f && sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoclean && sudo apt-get --purge autoremove && git clone  && clear
     elif [ "$command" == "ls" ] 
     then
 	ls
